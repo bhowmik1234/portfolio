@@ -15,7 +15,9 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiSolidity,
+  SiRedux,
   SiPostgresql,
+  SiR,
 } from "react-icons/si";
 
 function Techstack() {
@@ -59,6 +61,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
       </Col>
     </Row>
   );
