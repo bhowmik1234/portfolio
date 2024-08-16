@@ -15,6 +15,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Pdfviewer from "./components/Pdfviewer";
 
 function App() {
   const [load, upadateLoad] = useState(true);

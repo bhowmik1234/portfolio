@@ -11,6 +11,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import resumePdf from '../Assets/resume15.pdf';
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -75,6 +77,20 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href={resumePdf}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Resume
               </Nav.Link>
             </Nav.Item>
 
