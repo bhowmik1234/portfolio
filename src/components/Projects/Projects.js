@@ -8,6 +8,7 @@ import Byteroot from "../../Assets/Projects/Byteroot.png";
 import Rakshat from "../../Assets/Projects/rakshak.png";
 import Ecom from "../../Assets/Projects/Ecom.jpeg";
 import Spam from "../../Assets/Projects/spam.png";
+import eveplora from "../../Assets/Projects/eveplora.png";
 
 
 
@@ -24,6 +25,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eveplora}
+              isBlog={false}
+              title="Eveplora"
+              ghLink="https://github.com/bhowmik1234"
+              description="Eveplora is a platform that combines 3D technology and AI-powered tools to enhance creativity and simplify hackathon and event participation."
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Crypto}
