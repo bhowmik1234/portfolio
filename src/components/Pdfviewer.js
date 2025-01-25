@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePdf from '../Assets/pre.svg';
+import resumePdf from '../Assets/resume.pdf';
 
 const Pdfviewer = () => {
   return (

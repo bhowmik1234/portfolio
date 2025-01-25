@@ -11,7 +11,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import resumePdf from '../Assets/resume15.pdf';
+import resumePdf from '../Assets/resume.pdf';
 
 
 function NavBar() {
