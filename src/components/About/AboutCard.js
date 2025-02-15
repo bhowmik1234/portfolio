@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Bhowmik Chawda </span>
             from <span className="purple"> Jamshedpur, India.</span>
             <br />
-            I am pursuing B.Tech, in Computer Science and Engineering in SRM AP.
+            I am pursuing B.Tech, in Computer Science and Engineering at SRM AP.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
